@@ -90,7 +90,7 @@ namespace SolastaCommunityExpansion.Monsters
             TarrasqueSwallowedCondition.RecurrentEffectForms[0].DamageForm.SetDiceNumber(16);
 
             TarrasqueSwallowPower = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerRemorhazSwallow
             );
 
@@ -109,7 +109,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "ErinyesParryPower";
 
             ErinyesParry_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerFeatTwinBlade
             );
 
@@ -123,7 +123,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "VampireCharmPower";
 
             VampireCharmPower = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerLaetharParalyzingGaze
             );
 
@@ -164,7 +164,7 @@ namespace SolastaCommunityExpansion.Monsters
                         */
 
             Generic_Lightning_Attack_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDomainElementalLightningBlade
             );
 
@@ -233,7 +233,7 @@ namespace SolastaCommunityExpansion.Monsters
                 var text = entry.Value.Replace(" ", "").Replace("_", "") + "BreathPower";
 
                 FeatureDefinitionPower Dragon_Breath_Power = BuildNewPower(
-                    "DH" + text,
+                    "DH_Custom_" + text,
                     DatabaseHelper.FeatureDefinitionPowers.PowerDragonBreath_Fire
                 );
 
@@ -257,7 +257,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "BalorFireAuraPower";
 
             Balor_FireAura_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerArrokAuraOfFire
             );
 
@@ -273,7 +273,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "LichDisruptLifePower";
 
             Lich_DisruptLife_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerFireOspreyBlast
             );
 
@@ -292,7 +292,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "AncientDragonWingPower";
 
             AncientDragon_Wing_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDragonWingAttack
             );
 
@@ -318,7 +318,7 @@ namespace SolastaCommunityExpansion.Monsters
                 var text = "SummonCreature" + entry.Key.EffectDescription.EffectForms[0].SummonForm.MonsterDefinitionName.Replace("_", "") + "Power";
 
                 SummonCreature_Elemental_Power = BuildNewPower(
-                    "DH" + text,
+                    "DH_Custom_" + text,
                     DatabaseHelper.FeatureDefinitionPowers.PowerClericDivineInterventionPaladin
                 );
 
@@ -338,7 +338,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "SearingBurstPower";
 
             SearingBurst_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerFireOspreyBlast
             );
 
@@ -379,7 +379,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "BlindingGazePower";
 
             BlindingGaze_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerLaetharParalyzingGaze
             );
 
@@ -393,7 +393,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "AtWillSelfBuffInvisibilityPower";
 
             AtWillSelfBuff_Invisibility_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDomainBattleDivineWrath
             );
 
@@ -408,7 +408,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "AtWillAOEFireballPower";
 
             AtWillAOE_Fireball_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDomainBattleDivineWrath
             );
 
@@ -427,7 +427,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "LimitedPerDayTargetDebuffHoldMonsterPower";
 
             LimitedPerDayTargetDebuff_HoldMonster_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDomainLawAnathema
             );
 
@@ -448,7 +448,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "LimitedPerDayAOEWallOfFirePower";
 
             LimitedPerDayAOE_WallOfFire_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDomainBattleDivineWrath
             );
 
@@ -468,7 +468,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "SummonCreatureErinyesPower";
 
             SummonCreature_Erinyes_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerClericDivineInterventionPaladin
             );
 
@@ -487,7 +487,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "SummonCreatureNalfeshneePower";
 
             SummonCreature_Nalfeshnee_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerClericDivineInterventionPaladin
             );
 
@@ -506,7 +506,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "SummonCreatureWolvesPower";
 
             SummonCreature_Wolves_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerClericDivineInterventionPaladin
             );
 
@@ -525,7 +525,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "AirTitanGalePower";
 
             AirTitan_Gale_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDragonWingAttack
             );
 
@@ -579,7 +579,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "FireTitanAuraPower";
 
             FireTitan_Aura_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerArrokAuraOfFire
             );
 
@@ -595,7 +595,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "AirTitanLightningPower";
 
             AirTitan_Lightning_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDomainElementalLightningBlade
             );
 
@@ -634,7 +634,7 @@ namespace SolastaCommunityExpansion.Monsters
                                );
             */
             AirTitan_LightningStorm_Attack_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDomainElementalLightningBlade
             );
 
@@ -662,7 +662,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "IlluminatingCrystalsPower";
 
             IlluminatingCrystals_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerFireOspreyBlast
             );
 
@@ -683,7 +683,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "DisintegratingBeamPower";
 
             DisintegratingBeam_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDragonBreath_Acid
             );
 
@@ -710,7 +710,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "IncreasedGravityZoneAttackPower";
 
             IncreasedGravityZone_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDragonWingAttack
             );
 
@@ -772,7 +772,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "SummonCreatureLesserConstructPower";
 
             SummonCreature_LesserConstruct_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerClericDivineInterventionPaladin
             );
 
@@ -791,7 +791,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "EarthTitanEarthquakePower";
 
             EarthTitan_Earthquake_Power = BuildNewPower(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.FeatureDefinitionPowers.PowerDragonWingAttack
             );
 

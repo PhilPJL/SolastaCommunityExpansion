@@ -97,7 +97,7 @@ namespace SolastaCommunityExpansion.Monsters
             string text = "TarrasqueReflectiveCarapaceImmunity";
 
             TarrasqueReflectiveCarapace = BuildNewMagicAffinity(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.FeatureDefinitionMagicAffinitys.MagicAffinityConditionImmuneToShine
                     );
 
@@ -120,7 +120,7 @@ namespace SolastaCommunityExpansion.Monsters
             string text = "TarrasqueSwallowDecisions";
 
             TarrasqueSwallow_Decision = BuildNewDecisionDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionDefinitions.CastMagic_Fly_Self
                     );
 
@@ -133,7 +133,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             Tarrasque_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.RemorhazCombatDecisions
                     );
 
@@ -199,7 +199,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             FeatureDefinitionPower Balor_Retaliate_Power = NewMonsterPowers.BuildNewPower(
-                    "DH" + Power_text,
+                    "DH_Custom_" + Power_text,
                     DatabaseHelper.FeatureDefinitionPowers.PowerRemorhazRetaliate
                      );
 
@@ -215,7 +215,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             Balor_Retaliate_DamageAffinity = BuildNewDamageAffinity(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.FeatureDefinitionDamageAffinitys.DamageAffinityFireImmunityRemorhaz
                     );
 
@@ -228,7 +228,7 @@ namespace SolastaCommunityExpansion.Monsters
         {
             /*
             string text = "Lich_Spelllist";
-            Lich_spelllist = Helpers.SpelllistBuilder.create9LevelSpelllist(text, GuidHelper.Create(Settings.GUID, "DH" + text).ToString(), "",
+            Lich_spelllist = Helpers.SpelllistBuilder.create9LevelSpelllist(text, GuidHelper.Create(Settings.GUID, "DH_Custom_" + text).ToString(), "",
                                                                     new List<SpellDefinition>
                                                                     {
                                                                                     DatabaseHelper.SpellDefinitions.FireBolt,
@@ -291,7 +291,7 @@ namespace SolastaCommunityExpansion.Monsters
             string text = "LichSpelllist";
 
             Lich_spelllist = BuildNewSpelllist(
-                     "DH" + text,
+                     "DH_Custom_" + text,
                      DatabaseHelper.SpellListDefinitions.SpellListMage
                       );
 
@@ -412,7 +412,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             CastSpell_Lich = BuildNewCaster(
-                     "DH" + text,
+                     "DH_Custom_" + text,
                      DatabaseHelper.FeatureDefinitionCastSpells.CastSpellMage
                       );
 
@@ -467,7 +467,7 @@ namespace SolastaCommunityExpansion.Monsters
 
         {
             /*   string text = "ArchMage_Spelllist";
-               ArchMage_spelllist = Helpers.SpelllistBuilder.create9LevelSpelllist(text, GuidHelper.Create(Settings.GUID, "DH" + text).ToString(), "",
+               ArchMage_spelllist = Helpers.SpelllistBuilder.create9LevelSpelllist(text, GuidHelper.Create(Settings.GUID, "DH_Custom_" + text).ToString(), "",
                                                                        new List<SpellDefinition>
                                                                        {
                                                                                        DatabaseHelper.SpellDefinitions.FireBolt,
@@ -523,7 +523,7 @@ namespace SolastaCommunityExpansion.Monsters
             string text = "ArchMageSpelllist";
 
             Archmage_spelllist = BuildNewSpelllist(
-                     "DH" + text,
+                     "DH_Custom_" + text,
                      DatabaseHelper.SpellListDefinitions.SpellListMage
                       );
 
@@ -639,7 +639,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             CastSpell_ArchMage = BuildNewCaster(
-                     "DH" + text,
+                     "DH_Custom_" + text,
                      DatabaseHelper.FeatureDefinitionCastSpells.CastSpellMage
                       );
 
@@ -694,7 +694,7 @@ namespace SolastaCommunityExpansion.Monsters
         {
             /*
                         string text = "GuardianNaga_Spelllist";
-                        GuardianNaga_spelllist = Helpers.SpelllistBuilder.create9LevelSpelllist(text, GuidHelper.Create(Settings.GUID, "DH" + text).ToString(), "",
+                        GuardianNaga_spelllist = Helpers.SpelllistBuilder.create9LevelSpelllist(text, GuidHelper.Create(Settings.GUID, "DH_Custom_" + text).ToString(), "",
                                                                                 new List<SpellDefinition>
                                                                                 {
                                                                                                 DatabaseHelper.SpellDefinitions.SacredFlame
@@ -742,7 +742,7 @@ namespace SolastaCommunityExpansion.Monsters
             string text = "GuardianNagaSpelllist";
 
             GuardianNaga_spelllist = BuildNewSpelllist(
-            "DH" + text,
+            "DH_Custom_" + text,
             DatabaseHelper.SpellListDefinitions.SpellListHighPriest
             );
 
@@ -827,7 +827,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             CastSpell_GuardianNaga = BuildNewCaster(
-                     "DH" + text,
+                     "DH_Custom_" + text,
                      DatabaseHelper.FeatureDefinitionCastSpells.CastSpellDivineAvatar_Wizard
                       );
 
@@ -883,7 +883,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             AirTitan_SleetStorm_Immunity = BuildNewMagicAffinity(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.FeatureDefinitionMagicAffinitys.MagicAffinityConditionImmuneToShine
                     );
 
@@ -898,7 +898,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             FeatureDefinitionPower FireTitan_Retaliate_Power = NewMonsterPowers.BuildNewPower(
-                    "DH" + Power_text,
+                    "DH_Custom_" + Power_text,
                     DatabaseHelper.FeatureDefinitionPowers.PowerRemorhazRetaliate
                      );
 
@@ -915,7 +915,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             FireTitan_Retaliate_DamageAffinity = BuildNewDamageAffinity(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.FeatureDefinitionDamageAffinitys.DamageAffinityFireImmunityRemorhaz
                     );
 
@@ -929,7 +929,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             AncientDragon_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.DragonCombatDecisions
                     );
 
@@ -966,7 +966,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             SummonCreature_Magic_Decision = BuildNewDecisionDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionDefinitions.CastMagic_Debuff_AoE
                     );
 
@@ -980,7 +980,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             AtWillAOE_Magic_Decision = BuildNewDecisionDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionDefinitions.CastMagic_DPS_AoE
                     );
 
@@ -993,7 +993,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             CastMagic_Stoneskin_Decision = BuildNewDecisionDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionDefinitions.CastMagic_Fly_Self
                     );
 
@@ -1006,7 +1006,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             LimitedPerDayAOE_Magic_Decision = BuildNewDecisionDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionDefinitions.CastMagic_DPS_AoE
                     );
 
@@ -1018,7 +1018,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             AtWillSelfBuff_Magic_Decision = BuildNewDecisionDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionDefinitions.CastMagic_SelfBuff
                     );
 
@@ -1031,7 +1031,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             LimitedPerDayTargetDebuff_Magic_Decision = BuildNewDecisionDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionDefinitions.CastMagic_Debuff_SingleTarget
                     );
 
@@ -1044,7 +1044,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             Solar_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.DefaultRangeWithBackupMeleeDecisions
                     );
 
@@ -1097,7 +1097,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             HighLevelCaster_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.CubeOfLightCombatDecisions
                     );
 
@@ -1144,7 +1144,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             Vampire_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.DefilerCombatDecisions
                     );
 
@@ -1215,7 +1215,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             Titan_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.DefaultMeleeBeastCombatDecisions
                     );
 
@@ -1294,7 +1294,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             ConstructTitan_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.DefaultMeleeBeastCombatDecisions
                     );
 
@@ -1374,7 +1374,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             Naga_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.FlyingSnakeCombatDecisions
                     );
 
@@ -1442,7 +1442,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             PitFiend_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.DefaultMeleeBeastCombatDecisions
                     );
 
@@ -1497,7 +1497,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             Balor_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.PhaseSpiderCombatDecisions
                     );
 
@@ -1531,7 +1531,7 @@ namespace SolastaCommunityExpansion.Monsters
 
 
             Nalfeshnee_CombatDecisions = BuildNewDecisionPackageDefinition(
-                   "DH" + text,
+                   "DH_Custom_" + text,
                    DatabaseHelper.DecisionPackageDefinitions.PhaseSpiderCombatDecisions
                     );
 

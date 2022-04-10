@@ -18,7 +18,7 @@ namespace SolastaCommunityExpansion.Monsters
                 LegendaryCreature = true,
                 BaseTemplateName = DatabaseHelper.MonsterDefinitions.Air_Elemental,
                 MonsterShaderReference = DatabaseHelper.MonsterDefinitions.Air_Elemental,
-                NewName = "CustomAirTitan",
+                NewName = "Custom_AirTitan",
                 Size = DatabaseHelper.CharacterSizeDefinitions.Gargantuan,
                 Alignment = DatabaseHelper.AlignmentDefinitions.Neutral.Name,
                 ArmorClass = 19,
@@ -74,7 +74,7 @@ namespace SolastaCommunityExpansion.Monsters
                 LegendaryCreature = true,
                 BaseTemplateName = DatabaseHelper.MonsterDefinitions.Golem_Clay,
                 MonsterShaderReference = DatabaseHelper.MonsterDefinitions.SkarnGhoul,
-                NewName = "CustomEarthTitan",
+                NewName = "Custom_EarthTitan",
                 Size = DatabaseHelper.CharacterSizeDefinitions.Gargantuan,
                 Alignment = DatabaseHelper.AlignmentDefinitions.Neutral.Name,
                 ArmorClass = 21,
@@ -123,7 +123,7 @@ namespace SolastaCommunityExpansion.Monsters
                 LegendaryCreature = true,
                 BaseTemplateName = DatabaseHelper.MonsterDefinitions.Fire_Elemental,
                 MonsterShaderReference = DatabaseHelper.MonsterDefinitions.Fire_Elemental,
-                NewName = "CustomFireTitan",
+                NewName = "Custom_FireTitan",
                 Size = DatabaseHelper.CharacterSizeDefinitions.Gargantuan,
                 Alignment = DatabaseHelper.AlignmentDefinitions.Neutral.Name,
                 ArmorClass = 16,
@@ -177,7 +177,7 @@ namespace SolastaCommunityExpansion.Monsters
                 LegendaryCreature = true,
                 BaseTemplateName = DatabaseHelper.MonsterDefinitions.Golem_Iron,
                 MonsterShaderReference = DatabaseHelper.MonsterDefinitions.Golem_Iron,
-                NewName = "CustomConstructTitan",
+                NewName = "Custom_ConstructTitan",
                 Size = DatabaseHelper.CharacterSizeDefinitions.Gargantuan,
                 Alignment = DatabaseHelper.AlignmentDefinitions.Neutral.Name,
                 ArmorClass = 23,
@@ -235,14 +235,14 @@ namespace SolastaCommunityExpansion.Monsters
                 MonsterDefinitionBuilder NewMonster = new MonsterDefinitionBuilder(
                     Definitions[i].NewName,
                     GuidHelper.Create(Settings.GUID, Definitions[i].NewName).ToString(),
-                    "Monster/&" + "DH" + Definitions[i].NewTitle,
-                    "Monster/&" + "DH" + Definitions[i].NewDescription,
+                    "Monster/&" + "DH_Custom_" + Definitions[i].NewTitle,
+                    "Monster/&" + "DH_Custom_" + Definitions[i].NewDescription,
                     Definitions[i].BaseTemplateName);
                 */
 
                 MonsterDefinitionBuilder NewMonster = MonsterDefinitionBuilder
                         .Create(
-                            Definitions[i].BaseTemplateName, "DH" + Definitions[i].NewName,
+                            Definitions[i].BaseTemplateName, "DH_Custom_" + Definitions[i].NewName,
                             DefinitionBuilder.CENamespaceGuid)
                         .SetGuiPresentation(
                             Category.Monster,

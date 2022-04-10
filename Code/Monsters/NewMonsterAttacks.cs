@@ -90,7 +90,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "RocBeakAttack";
 
             Roc_Beak_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_GiantEagle_Beak
             );
 
@@ -107,7 +107,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "RocTalonsAttack";
 
             Roc_Talons_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_GiantEagle_Talons
             );
 
@@ -144,7 +144,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "IceBiteAttack";
 
             Ice_Bite_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Bite
             );
 
@@ -162,7 +162,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "NagaSpitAttack";
 
             NagaSpit_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Spider_Crimson_Spit
             );
 
@@ -188,7 +188,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "NagaBiteAttack";
 
             NagaBite_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Goblin_PebbleThrow
             );
 
@@ -232,7 +232,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "ForkAttack";
 
             Fork_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Skeleton_Spear
             );
 
@@ -252,7 +252,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "HornedDevilTailAttack";
 
             ConditionDefinition BleedingWound_Condition = BuildNewCondition(
-                "DH" + text + "condition",
+                "DH_Custom_" + text + "condition",
                 DatabaseHelper.ConditionDefinitions.ConditionBleeding
            );
 
@@ -261,7 +261,7 @@ namespace SolastaCommunityExpansion.Monsters
             BleedingWound_Condition.RecurrentEffectForms[0].DamageForm.SetDieType(RuleDefinitions.DieType.D6);
 
             HornedDevilTail_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Tail
             );
 
@@ -301,7 +301,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "PoisonLongswordAttack";
 
             PoisonLongsword_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Veteran_Sorak_Agent_Longsword
             );
 
@@ -334,7 +334,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "PoisonLongbowAttack";
 
             PoisonLongbow_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_BadlandHunter_Longbow
             );
 
@@ -390,7 +390,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "RadiantLongswordAttack";
 
             RadiantLongsword_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Hyeronimus_Greatsword
             );
 
@@ -411,7 +411,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "RadiantLongbowAttack";
 
             RadiantLongbow_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_BadlandHunter_Longbow
             );
 
@@ -465,7 +465,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "AirBlastAttack";
 
             AirBlast_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Goblin_PebbleThrow
             );
 
@@ -495,7 +495,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "HurlFlameAttack";
 
             HurlFlame_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Fire_Jester_Firebolt
             );
 
@@ -511,7 +511,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "FireScimatarAttack";
 
             FireScimatar_Attack = BuildNewAttack(
-                     "DH" + text,
+                     "DH_Custom_" + text,
                      DatabaseHelper.MonsterAttackDefinitions.Attack_Goblin_Cutthroat_Scimitar
                       );
 
@@ -543,7 +543,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "LightningScimatarAttack";
 
             LightningScimatar_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Goblin_Cutthroat_Scimitar
             );
 
@@ -576,7 +576,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "GenericBiteAttackNoExtraDamage";
 
             Generic_Bite_Attack = BuildNewAttack(
-                     "DH" + text,
+                     "DH_Custom_" + text,
                      DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Bite
                       );
 
@@ -590,7 +590,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "GenericStrongerBiteAttackNoExtraDamage";
 
             Generic_Stronger_Bite_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Bite
             );
 
@@ -609,7 +609,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "GenericClawAttack";
 
             AncientDragon_Claw_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Claw
             );
 
@@ -654,7 +654,7 @@ namespace SolastaCommunityExpansion.Monsters
                 var text = entry.Value.Replace(" ", "") + "BiteAttack";
 
                 MonsterAttackDefinition Dragon_Bite_Attack = BuildNewAttack(
-                    "DH" + text,
+                    "DH_Custom_" + text,
                     DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Bite
                 );
 
@@ -681,7 +681,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "AncientDragonTailAttack";
 
             AncientDragon_Tail_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Tail
             );
 
@@ -698,7 +698,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "PitFiendBiteAttack";
 
             ConditionDefinition PitFiend_Bite_Condition = BuildNewCondition(
-                "DH" + text + "condition",
+                "DH_Custom_" + text + "condition",
                 DatabaseHelper.ConditionDefinitions.ConditionPoisoned_BasicPoison
             );
 
@@ -706,7 +706,7 @@ namespace SolastaCommunityExpansion.Monsters
             PitFiend_Bite_Condition.RecurrentEffectForms[0].DamageForm.SetDieType(RuleDefinitions.DieType.D6);
 
             PitFiend_Bite_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Bite
             );
 
@@ -740,7 +740,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "PitFiendMaceAttack";
 
             PitFiend_Mace_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Divine_Avatar
             );
 
@@ -761,7 +761,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "BalorLongswordAttack";
 
             Balor_Longsword_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Divine_Avatar
             );
 
@@ -785,7 +785,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "BalorWhipAttack";
 
             Balor_Whip_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Divine_Avatar
             );
 
@@ -828,7 +828,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "LichParalyzingTouchAttack";
 
             Lich_ParalyzingTouch_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Ghost_Withering_Laethar
             );
 
@@ -849,7 +849,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "FireTitanSlamAttack";
 
             FireTitan_Slam_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Air_Elemental_Slam
             );
 
@@ -882,7 +882,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "AirTitanSlamAttack";
 
             AirTitan_Slam_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Air_Elemental_Slam
             );
 
@@ -915,7 +915,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "EarthTitanSlamAttack";
 
             EarthTitan_Slam_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Air_Elemental_Slam
             );
 
@@ -932,7 +932,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "ConstructTitanSlamAttack";
 
             ConstructTitan_Slam_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Air_Elemental_Slam
             );
 
@@ -963,7 +963,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "ConstructTitanForceCannonAttack";
 
             ConstructTitan_ForceCannon_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Goblin_PebbleThrow
             );
 
@@ -997,7 +997,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "EarthTitanBoulderAttack";
 
             EarthTitan_Boulder_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Giant_Fire_Rock
             );
 
@@ -1038,14 +1038,14 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "TarrasqueBite";
 
             TarrasqueGrappledRestrainedCondition = NewMonsterAttacks.BuildNewCondition(
-                "DH" + text + "condition",
+                "DH_Custom_" + text + "condition",
                 DatabaseHelper.ConditionDefinitions.ConditionGrappledRestrainedRemorhaz
             );
 
             //  TarrasqueGrappledRestrainedCondition.features.Add(DatabaseHelper.FeatureDefinitionActionAffinitys.ActionAffinityBlackTentacles);
 
             Tarrasque_Bite_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Remorhaz_Bite
             );
 
@@ -1081,7 +1081,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "TarrasqueClaw";
 
             Tarrasque_Claw_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Claw
             );
 
@@ -1110,7 +1110,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "TarrasqueTail";
 
             Tarrasque_Tail_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Green_Dragon_Tail
             );
 
@@ -1156,7 +1156,7 @@ namespace SolastaCommunityExpansion.Monsters
             var text = "TarrasqueHorn";
 
             Tarrasque_Horn_Attack = BuildNewAttack(
-                "DH" + text,
+                "DH_Custom_" + text,
                 DatabaseHelper.MonsterAttackDefinitions.Attack_Minotaur_Gore
             );
 
